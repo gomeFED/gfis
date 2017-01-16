@@ -11,9 +11,19 @@ module.exports = {
     tplFolder: "html",
     //模板所属应用
     tplApp: "channel_web",
-
+    //样式文件工作目录
+    styleWorkDirs:["css"],
+    //脚本文件工作目录
+    scriptWorkDirs:["js"],
+    //视图文件工作目录
+    viewWorkDirs:["html"],
+    
     //发布参数
     release: {
+        //发布文件处理
+        onlyCopyFiles:["gfe-config.json"],//仅用于copy的目录或文件(可以使用glob通配符)
+        excludesFiles: ["data/**",'widget/**'],//忽略的发布文件或文件夹(可以使用glob通配符)
+
         //预编译
         sass: false, //是否开启sass编译
         
@@ -40,9 +50,6 @@ module.exports = {
         //输出debug文件
         debug: true, //是否输出一套debug页面
         debugDomain: '//127.0.0.1', //debug页面中静态资源域名
-
-        //忽略的发布文件
-        ignoreReleaseFiles: null, //不发布的资源，请使用glob通配符模式，多个以逗号分隔
 
         //环境域名
         uatDomain: { //uat环境对应的域名
