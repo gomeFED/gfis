@@ -34,6 +34,8 @@ demo/**/build
 
 # Dependency directories
 node_modules
+**/node_modules
+
 jspm_packages
 
 # Optional npm cache directory
