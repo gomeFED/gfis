@@ -2,6 +2,7 @@
 
 var svnUltimate = require('node-svn-ultimate');
 var $ = require('../lib/util.js');
+var fs = require('fs');
 exports.name = 'widget [install]';
 exports.desc = 'install public widget,eg:gfis widget install';
 
@@ -24,7 +25,13 @@ exports.register = function(commander){
 		    	fis.util.del(widgetCachePath);
 		    }
 			if(widgetKey.length>0){ //checkout到缓存一份widget,再copy到项目中
-				fis.util.del(process.cwd()+'/widget/');//删除项目中widget下的文件夹
+				fs.readdir(process.cwd()+'/widget/', function(err, files) { //删除公共widget
+					files.forEach(function(item,i){
+						if(/.*?@\d+\.\d+\.\d+$/.test(item)){
+							fis.util.del(process.cwd()+'/widget/'+item);
+						}
+					})
+				})
 		    	widgetKey.forEach(function(item,index){
 		    		var widgetItem = '/'+item+'/'+widgets[item]; //带版本号路径
 		    		var projectWidgetItemPath = process.cwd()+'/widget/'+item+'@'+widgets[item]; //不带版本号路径
