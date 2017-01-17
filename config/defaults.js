@@ -12,21 +12,21 @@ module.exports = {
     //模板所属应用
     tplApp: "channel_web",
     //样式文件工作目录
-    styleWorkDirs:["css"],
+    styleWorkDirs: ["css"],
     //脚本文件工作目录
-    scriptWorkDirs:["js"],
+    scriptWorkDirs: ["js"],
     //视图文件工作目录
-    viewWorkDirs:["html"],
-    
+    viewWorkDirs: ["html"],
+
     //发布参数
     release: {
         //发布文件处理
-        onlyCopyFiles:["gfe-config.json"],//仅用于copy的目录或文件(可以使用glob通配符)
-        excludesFiles: ["data/**",'widget/**'],//忽略的发布文件或文件夹(可以使用glob通配符)
+        onlyCopyFiles: ["gfe-config.json"], //仅用于copy的目录或文件(可以使用glob通配符)
+        excludesFiles: ["data/**", 'widget/**'], //忽略的发布文件或文件夹(可以使用glob通配符)
 
         //预编译
         sass: false, //是否开启sass编译
-        
+
         //MD5
         cssMd5: false, //css生成md5戳
         jsMd5: false, //js生成md5戳
@@ -36,13 +36,13 @@ module.exports = {
         jsCompress: true, //是否开启压缩js文件
         cssCompress: true, //是否开启压缩css文件
         pngCompress: true, //是否开启压缩png图片
-        htmlCompress: false,//是否开启压缩html文件
+        htmlCompress: false, //是否开启压缩html文件
 
         //雪碧图
         cssSprite: true, //是否开启css sprite功能
 
         //css的浏览器前缀
-        cssAutoPrefixer: false,//是否开启css对浏览器前缀的处理
+        cssAutoPrefixer: false, //是否开启css对浏览器前缀的处理
 
         //静态资源combo
         urlCombo: true, //是否合并js、css文件
@@ -67,5 +67,6 @@ module.exports = {
             css: "//css.gomein.net.cn",
             bgimg: "//app.gomein.net.cn"
         }
-    }
+    },
+    widget: {}
 };
