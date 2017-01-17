@@ -9,6 +9,7 @@
 <body>
     {%widget name="global_head"%}
     {%widget name="cheap_web_header"%}
+    {%widget name="content"%}
 </body>
 
 </html>
