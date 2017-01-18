@@ -4,7 +4,7 @@ fis.match('::package', {
     spriter: fis.plugin('csssprites', {
     	// option of csssprites
     })
-})
+});
 
 // 对 CSS 进行图片合并
 fis.match('/css/**.css', {
