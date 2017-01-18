@@ -18,7 +18,7 @@ exports.register = function(commander) {
         if (command[0] == 'install') {
             var widgetUrl = $.getWidgetSvnUrl();
             var widgetCachePath = fis.project.getTempPath() + '/widget-cache';
-            var widgets = $.getConfig().widget; //读取项目配置文件的widget
+            var widgets = $.getConfig().widgets; //读取项目配置文件的widget
             var widgetKey = Object.keys(widgets);
             var widgetExist = fis.util.isDir(widgetCachePath);
             if (widgetExist) { //删除widget缓存文件夹
