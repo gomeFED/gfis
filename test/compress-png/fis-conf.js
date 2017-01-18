@@ -1,7 +1,7 @@
 //运行命令：fis3 release
 fis.match('/css/**.png', {
     optimizer: fis.plugin('png-compressor', {
-        // option of png-conpressor
+        type : 'pngquant'
     })
 });
 
