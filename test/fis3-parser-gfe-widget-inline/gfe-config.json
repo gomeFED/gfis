@@ -5,7 +5,23 @@
     "tplPath": "WEB-INF/template/project",
     "tplFolder": "html",
     "tplApp": "channel_web",
+    "styleWorkDirs": [
+        "css"
+    ],
+    "scriptWorkDirs": [
+        "js"
+    ],
+    "viewWorkDirs": [
+        "html"
+    ],
     "release": {
+        "onlyCopyFiles": [
+            "gfe-config.json"
+        ],
+        "excludesFiles": [
+            "data/**",
+            "widget/**"
+        ],
         "sass": false,
         "cssMd5": false,
         "jsMd5": false,
@@ -19,7 +35,6 @@
         "urlCombo": true,
         "debug": true,
         "debugDomain": "//127.0.0.1",
-        "ignoreReleaseFiles": null,
         "uatDomain": {
             "js": "//js.atguat.net.cn",
             "css": "//css.atguat.net.cn",
@@ -35,5 +50,9 @@
             "css": "//css.gomein.net.cn",
             "bgimg": "//app.gomein.net.cn"
         }
+    },
+    "widgets": {
+        "global_head": "1.0.0",
+        "cheap_web_header": "1.0.0"
     }
 }
