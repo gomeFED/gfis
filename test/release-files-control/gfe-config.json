@@ -5,7 +5,28 @@
     "tplPath": "WEB-INF/template/project",
     "tplFolder": "html",
     "tplApp": "channel_web",
+    "styleWorkDirs": [
+        "css"
+    ],
+    "scriptWorkDirs": [
+        "js"
+    ],
+    "viewWorkDirs": [
+        "html"
+    ],
     "release": {
+        "onlyCopyFiles": [
+            "gfe-config.json"
+        ],
+        "excludesFiles": [
+            "data/**",
+            "widget/**",
+            "/ignore{A,B}/**",
+            "/containsIgnoreFile/ignore{A,B}.txt"
+        ],
+        "widgetInline": true,
+        "freemarker": true,
+        "ssi": true,
         "sass": false,
         "cssMd5": false,
         "jsMd5": false,
@@ -15,10 +36,10 @@
         "pngCompress": true,
         "htmlCompress": false,
         "cssSprite": true,
+        "cssAutoPrefixer": false,
         "urlCombo": true,
         "debug": true,
         "debugDomain": "//127.0.0.1",
-        "ignoreReleaseFiles": ["/ignore{A,B}/**", "/containsIgnoreFile/ignore{A,B}.txt"],
         "uatDomain": {
             "js": "//js.atguat.net.cn",
             "css": "//css.atguat.net.cn",
@@ -34,5 +55,6 @@
             "css": "//css.gomein.net.cn",
             "bgimg": "//app.gomein.net.cn"
         }
-    }
+    },
+    "widgets": {}
 }

@@ -22,6 +22,9 @@
             "data/**",
             "widget/**"
         ],
+        "widgetInline": true,
+        "freemarker": true,
+        "ssi": true,
         "sass": false,
         "cssMd5": false,
         "jsMd5": false,
@@ -52,7 +55,7 @@
         }
     },
     "widgets": {
-        "global_head": "1.0.0",
-        "cheap_web_header": "1.0.0"
+        "cheap_web_header":"1.0.0",
+        "global_head":"1.0.0"
     }
 }

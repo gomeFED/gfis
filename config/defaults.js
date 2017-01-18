@@ -24,6 +24,11 @@ module.exports = {
         onlyCopyFiles: ["gfe-config.json"], //仅用于copy的目录或文件(可以使用glob通配符)
         excludesFiles: ["data/**", 'widget/**'], //忽略的发布文件或文件夹(可以使用glob通配符)
 
+        //本地调试时parser阶段挂载的插件
+        widgetInline: true, //使用widgetInline解析
+        freemarker: true, //使用freemaker解析
+        ssi: true, //使用ssi解析
+
         //预编译
         sass: false, //是否开启sass编译
 
@@ -68,5 +73,5 @@ module.exports = {
             bgimg: "//app.gomein.net.cn"
         }
     },
-    widget: {}
+    widgets: {}
 };

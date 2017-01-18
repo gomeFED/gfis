@@ -5,11 +5,30 @@
     "tplPath": "WEB-INF/template/project",
     "tplFolder": "html",
     "tplApp": "channel_web",
+    "styleWorkDirs": [
+        "css"
+    ],
+    "scriptWorkDirs": [
+        "js"
+    ],
+    "viewWorkDirs": [
+        "html"
+    ],
     "release": {
+        "onlyCopyFiles": [
+            "gfe-config.json"
+        ],
+        "excludesFiles": [
+            "data/**",
+            "widget/**"
+        ],
+        "widgetInline": true,
+        "freemarker": true,
+        "ssi": true,
         "sass": false,
-        "cssMd5": true,
-        "jsMd5": true,
-        "imageMd5": true,
+        "cssMd5": false,
+        "jsMd5": false,
+        "imageMd5": false,
         "jsCompress": true,
         "cssCompress": true,
         "pngCompress": true,
@@ -19,7 +38,6 @@
         "urlCombo": true,
         "debug": true,
         "debugDomain": "//127.0.0.1",
-        "ignoreReleaseFiles": null,
         "uatDomain": {
             "js": "//js.atguat.net.cn",
             "css": "//css.atguat.net.cn",
