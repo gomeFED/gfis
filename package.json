@@ -1,7 +1,7 @@
 {
   "name": "gfis",
-  "version": "1.0.28",
-  "description": "前端集成解决方案",
+  "version": "1.0.30",
+  "description": "国美前端集成解决方案",
   "main": "index.js",
   "bin": {
     "gfis": "bin/gfis"
