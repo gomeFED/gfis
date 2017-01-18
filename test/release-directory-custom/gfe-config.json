@@ -34,5 +34,6 @@
             "css": "//css.gomein.net.cn",
             "bgimg": "//app.gomein.net.cn"
         }
-    }
+    },
+    "widgets": {}
 }
