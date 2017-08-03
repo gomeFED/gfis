@@ -20,7 +20,6 @@
   "author": "gomeFED",
   "license": "MIT",
   "dependencies": {
-    "art-template": "^4.12.1",
     "fis-optimizer-html-minifier": "^0.0.9",
     "fis-parser-artc": "0.0.3",
     "fis-parser-handlebars-3.x": "0.0.1",
