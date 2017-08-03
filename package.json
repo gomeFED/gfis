@@ -21,6 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "fis-optimizer-html-minifier": "^0.0.9",
+    "fis-parser-less-2.x": "^0.1.4",
     "fis-parser-node-sass": "^1.0.1",
     "fis3": "^3.4.31",
     "fis3-deploy-gfe-combo-url": "^1.0.3",
