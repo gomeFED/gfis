@@ -31,6 +31,9 @@ module.exports = {
 
         //预编译
         sass: false, //是否开启sass编译
+        less: false, //是否开启less编译
+        handlebars: false, //是否开启handlebars编译
+        artTemplate: false, //是否开启artTemplate编译
 
         //MD5
         cssMd5: false, //css生成md5戳
