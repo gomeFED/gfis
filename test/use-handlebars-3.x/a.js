@@ -1,5 +1,5 @@
 var template = __inline('tpl/some.html');
 var content = template({
-    name: 'fis3'
+    name: 'gfis'
 })
 document.write(content)
