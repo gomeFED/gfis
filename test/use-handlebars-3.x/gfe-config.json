@@ -27,7 +27,7 @@
         "ssi": true,
         "sass": false,
         "less": false,
-        "handlebars": false,
+        "handlebars": true,
         "cssMd5": false,
         "jsMd5": false,
         "imageMd5": false,
