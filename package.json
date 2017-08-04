@@ -31,6 +31,7 @@
     "fis3-deploy-gfe-script-inbottom": "^1.0.1",
     "fis3-deploy-gfe-script-place": "^1.0.4",
     "fis3-parser-gfe-freemarker": "^1.0.4",
+    "fis3-parser-gfe-smarty": "^1.0.1",
     "fis3-parser-gfe-ssi": "^1.0.3",
     "fis3-parser-gfe-widget-inline": "^1.0.2",
     "fis3-postprocessor-autoprefixer": "^1.0.0",

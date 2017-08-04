@@ -27,6 +27,7 @@ module.exports = {
         //本地调试时parser阶段挂载的插件
         widgetInline: true, //使用widgetInline解析
         freemarker: true, //使用freemaker解析
+        smarty: false, //使用smarty解析
         ssi: true, //使用ssi解析
 
         //预编译

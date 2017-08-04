@@ -24,6 +24,7 @@
         ],
         "widgetInline": true,
         "freemarker": true,
+        "smarty": false,
         "ssi": true,
         "sass": false,
         "less": false,
