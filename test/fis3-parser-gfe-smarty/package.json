@@ -1,5 +1,5 @@
 {
-  "name": "fis3-parser-gfe-freemarker",
+  "name": "fis3-parser-gfe-smarty",
   "version": "1.0.0",
   "description": "",
   "main": "fis-conf.js",
@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fis3-parser-gfe-freemarker": "^1.0.5"
+    "jsmart": "^2.14.0",
+    "smarty": "^0.1.4",
+    "smarty4js": "^0.1.8"
   }
 }
