@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CMD</title>
+    <script type="text/javascript" src="./static/sea.js"></script>
+</head>
+<body>
+    <p> Hello, World. </p>
+    <button id="btn">load async js</button>
+    <script type="text/javascript">
+    seajs.config({
+		baseUrl: './static/',
+		paths: {
+			"jquery": "jquery.js",
+			"$": "jquery.js"
+		}
+    })
+        seajs.use("./js/1-0/1-0.js");
+    </script>
+</body>
+</html>

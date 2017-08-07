@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AMD</title>
+    <script type="text/javascript" src="/static/jquery.js"></script>
+    <script type="text/javascript" src="./static/require.js"></script>
+</head>
+<body>
+    <p> Hello, World. </p>
+    <button id="btn">load async js</button>
+    <script type="text/javascript">
+        require(['js/1-0/1-0'], function() {
+          $('#btn').on('click', function() {
+            require(['./js/2-0/2-0.js']);
+          })
+        });
+    </script>
+</body>
+</html>
