@@ -47,6 +47,11 @@ module.exports = {
         pngCompress: true, //是否开启压缩png图片
         htmlCompress: false, //是否开启压缩html文件
 
+        //模块化
+        "requirejs": false, //是否用require.js
+        "seajs": false, //是否用sea.js
+        "modjs": false, //是否用mod.js
+
         //雪碧图
         cssSprite: true, //是否开启css sprite功能
 
