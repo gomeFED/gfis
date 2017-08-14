@@ -1,0 +1,16 @@
+{
+  "name": "use-seajs-combo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fis-conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fis3-deploy-gfe-combo-url": "^1.0.4",
+    "fis3-hook-cmd": "^0.1.2",
+    "fis3-postpackager-loader": "^2.1.4"
+  }
+}

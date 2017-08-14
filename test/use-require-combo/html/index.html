@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AMD</title>
+    <!-- gfe:combo:begin -->
+    <script type="text/javascript" src="../js/static/require.js"></script>
+    <!-- gfe:combo:end -->
+    
+
+</head>
+<body>
+    <p> Hello, World. </p>
+    <button id="btn">load async js</button>
+    <!-- gfe:modules-combo:begin -->
+    <!--RESOURCEMAP_PLACEHOLDER-->
+    <!-- gfe:modules-combo:end -->
+    <script type="text/javascript">
+        require.config({
+            "baseUrl": "./js/",
+            "paths": {
+                "jquery": "static/jquery",
+                "$": "static/jquery"
+            }
+        });
+        require(['/js/1-0/1-0','jquery'], function() {
+          $('#btn').on('click', function() {
+            require(['/js/2-0/2-0.js']);
+          })
+        });
+    </script>
+</body>
+</html>

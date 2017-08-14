@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CMD</title>
+    
+    
+</head>
+<body>
+    <p> Hello, World. </p>
+    <button id="btn">load async js</button>
+    <script type="text/javascript" src="../js/static/sea.js"></script>
+    <!-- gfe:modules-combo:begin -->
+    <!--RESOURCEMAP_PLACEHOLDER-->
+    <!-- gfe:modules-combo:end -->
+    <script type="text/javascript">
+        seajs.config({
+            base: "./js/",
+            paths: {
+                jq: 'static'
+            },
+            alias: {
+                "jquery": "jq/jquery.js"
+            }
+        });
+        seajs.use("../js/1-0/1-0");
+    </script>
+</body>
+</html>
