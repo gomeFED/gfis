@@ -1,6 +1,6 @@
 {
   "name": "gfis",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "description": "国美前端集成解决方案",
   "main": "index.js",
   "bin": {
@@ -27,6 +27,7 @@
     "fis-parser-node-sass": "^1.0.1",
     "fis3": "^3.4.31",
     "fis3-deploy-gfe-combo-url": "^1.0.5",
+    "fis3-deploy-gfe-local-deliver": "^1.0.0",
     "fis3-deploy-gfe-replace": "^1.0.3",
     "fis3-deploy-gfe-script-inbottom": "^1.0.1",
     "fis3-deploy-gfe-script-place": "^1.0.4",
