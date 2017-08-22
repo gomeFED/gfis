@@ -39,7 +39,6 @@
         "htmlCompress": false,
         "requirejs": false,
         "seajs": false,
-        "modjs": false,
         "cssSprite": true,
         "cssAutoPrefixer": false,
         "urlCombo": true,
