@@ -1,6 +1,6 @@
 {
   "name": "gfis",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "description": "国美前端集成解决方案",
   "main": "index.js",
   "bin": {
@@ -34,7 +34,7 @@
     "fis3-hook-gfe-amd": "^1.0.0",
     "fis3-hook-gfe-cmd": "^1.0.0",
     "fis3-parser-gfe-delmod-config": "^1.0.0",
-    "fis3-parser-gfe-freemarker": "^1.0.4",
+    "fis3-parser-gfe-freemarker": "^1.0.7",
     "fis3-parser-gfe-smarty": "^1.0.1",
     "fis3-parser-gfe-ssi": "^1.0.3",
     "fis3-parser-gfe-widget-inline": "^1.0.2",
