@@ -43,6 +43,7 @@
     "gfe-command-init": "^1.0.2",
     "liftoff": "^2.3.0",
     "minimist": "^1.2.0",
-    "node-svn-ultimate": "^1.0.4"
+    "node-svn-ultimate": "^1.0.4",
+    "nodegit": "^0.18.3"
   }
 }
