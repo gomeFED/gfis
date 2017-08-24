@@ -30,9 +30,6 @@
         "less": false,
         "handlebars": false,
         "artTemplate": false,
-        "cssMd5": false,
-        "jsMd5": false,
-        "imageMd5": false,
         "jsCompress": true,
         "cssCompress": true,
         "pngCompress": true,
@@ -44,6 +41,7 @@
         "urlCombo": true,
         "debug": true,
         "debugDomain": "//127.0.0.1",
+        "gfisGlobalVar": false,
         "uatDomain": {
             "js": "//js.atguat.net.cn",
             "css": "//css.atguat.net.cn",

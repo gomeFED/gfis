@@ -36,11 +36,6 @@ module.exports = {
         handlebars: false, //是否开启handlebars编译
         artTemplate: false, //是否开启artTemplate编译
 
-        //MD5
-        cssMd5: false, //css生成md5戳
-        jsMd5: false, //js生成md5戳
-        imageMd5: false, //image生成md5戳
-
         //压缩&混淆
         jsCompress: true, //是否开启压缩js文件
         cssCompress: true, //是否开启压缩css文件
@@ -63,6 +58,7 @@ module.exports = {
         //输出debug文件
         debug: true, //是否输出一套debug页面
         debugDomain: '//127.0.0.1', //debug页面中静态资源域名
+        gfisGlobalVar: false,//gfis相关目录变量
 
         //环境域名
         uatDomain: { //uat环境对应的域名

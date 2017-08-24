@@ -26,11 +26,11 @@
     "fis-parser-less-2.x": "^0.1.4",
     "fis-parser-node-sass": "^1.0.1",
     "fis3": "^3.4.31",
-    "fis3-deploy-gfe-combo-url": "^1.0.5",
+    "fis3-deploy-gfe-combo-url": "^1.0.6",
     "fis3-deploy-gfe-local-deliver": "^1.0.0",
     "fis3-deploy-gfe-replace": "^1.0.3",
-    "fis3-deploy-gfe-script-inbottom": "^1.0.1",
-    "fis3-deploy-gfe-script-place": "^1.0.4",
+    "fis3-deploy-gfe-script-inbottom": "^1.0.2",
+    "fis3-deploy-gfe-script-place": "^1.0.5",
     "fis3-hook-commonjs": "^0.1.26",
     "fis3-hook-gfe-amd": "^1.0.0",
     "fis3-hook-gfe-cmd": "^1.0.0",
@@ -40,10 +40,11 @@
     "fis3-parser-gfe-ssi": "^1.0.3",
     "fis3-parser-gfe-widget-inline": "^1.0.2",
     "fis3-postprocessor-autoprefixer": "^1.0.0",
-    "fis3-prepackager-gfe-debug-output": "^1.0.3",
+    "fis3-prepackager-gfe-debug-output": "^1.0.4",
     "gfe-command-init": "^1.0.2",
     "liftoff": "^2.3.0",
     "minimist": "^1.2.0",
-    "node-svn-ultimate": "^1.0.4"
+    "node-svn-ultimate": "^1.0.4",
+    "nodegit": "^0.18.0"
   }
 }
